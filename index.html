@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>INTERACTIVE RECIPE FINDER</h1>
+    <input type="text" id="ingredient-search" class="SearchBar" placeholder="Search recipes by ingredient...">
+    <button onclick="fetchRecipes()" class="button-55">Search</button>
+    
+    <br> <br>
+   
+  
+    <nav>
+      <button id="all-recipes-tab"  class="button-55" role="button" >All Recipes</button>
+      <!-- <button class="button-55" role="button" >Button 55</button> -->
+      <button id="favorites-tab" class="button-55" role="button">Favorites</button>
+      
+    </nav>
+    <h4>This project is made by Darshil(CS070) Tarun(CS071) and Aman(CS068)</h4>
+  </header>
+
+  <main>
+    
+    <div id="recipe-container"></div> 
+    
+  </main>
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
